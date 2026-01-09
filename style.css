@@ -44,8 +44,6 @@ h1{
   font-weight: bold;
   font-size: 22px;
 }
-
-/* Buttons */
 .btn-primary {
   background: #22c55e;
   border: none;
@@ -63,8 +61,6 @@ h1{
   cursor: pointer;
   color: white;
 }
-
-/* Hero */
 .hero {
   text-align: center;
   padding: 100px 20px;
@@ -98,8 +94,6 @@ h1{
   margin-bottom: 20px;
   font-size: 14px;
 }
-
-/* Problems */
 .problems {
   padding: 80px 60px;
   text-align: center;
@@ -128,10 +122,6 @@ h1{
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.05);
 }
-
-
-
-/* Solution */
 .solution {
   padding: 80px 60px;
   background: white;
@@ -170,23 +160,17 @@ h1{
   color: gray;
   padding-top: 10px;
 }
-
-/* CTA */
 .cta {
   padding: 80px 20px;
   text-align: center;
   background: #f1f5f9;
 }
-
 .cta p {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 13px;
   color: gray;
 }
-
-
-/* Footer */
 .footer {
   background: #0f172a;
   color: #94a3b8;
