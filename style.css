@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f8f9fb;
+  color: #1f2933;
+}
+
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+    
+}
+h1{
+  color: rgb(2, 41, 56);
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+}
+
+.navbar nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #374151;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #22c55e;
+  border: none;
+  padding: 10px 18px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #cbd5e1;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-image: url(assets/hero-bg.png);
+  color: white;
+}
+
+.hero h1{
+  color: #f1f5f9;
+}
+
+.hero span {
+  color: #22c55e;
+}
+
+.hero-text {
+  max-width: 700px;
+  margin: 20px auto;
+  color: #cbd5e1;
+}
+
+.hero-buttons button {
+  margin: 10px;
+}
+
+.badge {
+  background: #22c55e;
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Problems */
+.problems {
+  padding: 80px 60px;
+  text-align: center;
+}
+.problems p{
+  font-size: 10px;
+  color: #434851;
+}
+
+.problem-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.problem-cards img{
+  background-color: #22c55e;
+  border-radius: 25px;
+  padding: 5px 5px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+
+
+/* Solution */
+.solution {
+  padding: 80px 60px;
+  background: white;
+}
+
+.small-title {
+  color: #22c55e;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.solution-text{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.solution-text img{
+  height: 300px;
+  width: 300px;
+}
+
+.solution ul {
+  margin-top: 20px;
+}
+
+.solution li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  list-style-image: url(assets/CheckCircle.png);
+  
+}
+
+
+.about{
+  font-size: 13px;
+  color: gray;
+  padding-top: 10px;
+}
+
+/* CTA */
+.cta {
+  padding: 80px 20px;
+  text-align: center;
+  background: #f1f5f9;
+}
+
+.cta p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+/* Footer */
+.footer {
+  background: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 20px;
+}
